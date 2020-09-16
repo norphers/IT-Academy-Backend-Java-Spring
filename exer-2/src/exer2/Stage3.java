@@ -29,7 +29,7 @@ public class Stage3 {
 	public static void dictionaryGenerator(List<Character> list) {
 		for(char one : list) {
 			if(dictionary.containsKey(one)) {
-				int number = dictionary. (one)+1;
+				int number = dictionary.get(one)+1;
 				dictionary.replace(one, number);	
 			} else {
 				dictionary.put(one, 1);
